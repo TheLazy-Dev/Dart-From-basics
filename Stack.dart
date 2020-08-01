@@ -10,7 +10,7 @@ main(List<String> args) {
     push(int.parse(stdin.readLineSync()));
   }
   for (int j = 0; j < size; j++) {
-    stdout.write((queue.elementAt(j)).toString() + " ".trim());
+    stdout.write((queue.elementAt(j)).toString() + " ");
   }
 }
 
