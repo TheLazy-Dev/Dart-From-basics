@@ -3,7 +3,7 @@ import 'dart:io';
 
 Queue queue = new Queue();
 main(List<String> args) {
-  print("Enter size of queue");
+  print("Enter size of Stack");
   int size = int.parse(stdin.readLineSync());
   for (int i = 0; i < size; i++) {
     print("Enter Data at " + i.toString());
